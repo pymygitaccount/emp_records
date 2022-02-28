@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <body style="background-color:rgba(126, 186, 226, 0.842);"></body>  
+        <h2 style="color:rgba(33, 36, 209, 0.973);"> Generate CSV File </h2>
+    </head>
+    <body>
+        
+
+        <form action="{% url 'csv' %}" method="get">
+            {% csrf_token %}
+            <input type="submit" value="Generate CSV" class="btn btn-secondary">
+        </form>
+        
+    </body>
+</html>
