@@ -6,3 +6,6 @@ def view_a(request):
 
 def view_b(request):
     return HttpResponse("in view b")
+
+def new_line(request):
+    pass
