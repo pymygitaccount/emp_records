@@ -1,4 +1,5 @@
 from django.http import HttpResponse
+from django.contrib.auth import login, logout,authenticate
 
 
 def view_a(request):
@@ -9,3 +10,7 @@ def view_b(request):
 
 def new_line(request):
     pass
+
+def emp_pf_details(request):
+    pass
+

@@ -13,7 +13,7 @@ class Employee_data(models.Model):
     designation = models.CharField(max_length=100)
     DOJ = models.DateTimeField(auto_now_add=True)
     active = models.BooleanField(default=True)
-
+ 
     def __str__(self):
         return self.name
 
@@ -36,4 +36,7 @@ class Employee_data(models.Model):
 #         return self.name
 
 def company_owner(models.Model):
+    pass
+
+def emp_temp_address(models.Model):
     pass
