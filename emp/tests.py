@@ -4,3 +4,6 @@ from django.test import TestCase
 
 def test_emp_salary():
     pass
+
+def test_company():
+    pass
