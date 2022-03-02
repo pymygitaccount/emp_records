@@ -34,3 +34,6 @@ class Employee_data(models.Model):
    
 #     def __str__(self):
 #         return self.name
+
+def company_owner(models.Model):
+    pass
