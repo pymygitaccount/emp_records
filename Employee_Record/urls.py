@@ -26,6 +26,7 @@ urlpatterns = [
     path('csv-export/', views.csv_export, name='csv'),
     path('home/', views.home, name='home'),
     path('profile_upload/', views.profile_upload, name='profile_upload'),
+    # path('profile_upload/', views.profile_upload, name='profile_upload'),
 
 ]
 
